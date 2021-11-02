@@ -1,5 +1,5 @@
 import React from 'react'
-import Form from "@rjsf/core";
+import Form from '@rjsf/core'
 
 const schema = {
     "properties": {
@@ -29,23 +29,25 @@ const schema = {
 }
 
 const uiSchema = {
-    "description" : {
+    "description": {
         "ui:widget": "textarea"
     },
 }
 
 function CreateIntegration() {
     return (
-        <div>
-            <h2>Create integration</h2>
-            <Form schema={schema} uiSchema={uiSchema}>
-                <button>
-                    <span>Cancel</span>
-                </button>
-                <button>
-                    <span>Create</span>
-                </button>
-            </Form>
+        <div id="createInt">
+            <div className="container">
+                <h2>Create integration</h2>
+                <Form schema={schema} uiSchema={uiSchema}>
+                    <button>
+                        <span>Cancel</span>
+                    </button>
+                    <button>
+                        <span>Create</span>
+                    </button>
+                </Form>
+            </div>
         </div>
     )
 }

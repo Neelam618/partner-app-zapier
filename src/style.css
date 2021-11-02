@@ -300,6 +300,10 @@ body {
     font-size: 16px;
     margin-top: 10px;
 }
+#createInt .container {
+    margin: 0 auto;
+    padding: 2em 6em;
+}
 @media screen and (max-width: 974px) {
    
 }
