@@ -12,7 +12,7 @@ import '../../style.css'
 
 const { Header, Content, Footer, Sider } = Layout;
 
-function PlatformUi() {
+function PageLayout() {
     return (    
         <div id="platformUi">
             <Layout className="site-layout-background" style={{ padding: '24px 0' }}>
@@ -32,4 +32,4 @@ function PlatformUi() {
     )
 }
 
-export default PlatformUi
+export default PageLayout

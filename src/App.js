@@ -1,12 +1,14 @@
-import PlatformUi from '../src/components/platformUI/PlatformUi'
+import PageLayout from './components/IntegrationHome/PageLayout'
 import 'antd/dist/antd.css';
-import Home from './components/home/Home';
+import Home from './components/Home';
+import CreateIntegration from './components/CreateIntegration';
 
 function App() {
   return (
     <div className="App">
-      <Home />
-      {/* <PlatformUi /> */}
+      {/* <Home /> */}
+      <CreateIntegration />
+      {/* <PageLayout /> */}
     </div>
   );
 }
