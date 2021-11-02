@@ -1,5 +1,7 @@
 import React from 'react'
-import Form from '@rjsf/core'
+import { withTheme } from '@rjsf/core';
+import { Theme as MuiTheme } from 'rjsf-material-ui';
+const Form = withTheme(MuiTheme);
 
 const schema = {
     "properties": {
