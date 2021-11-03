@@ -42,10 +42,10 @@ function CreateIntegration() {
             <div className="container">
                 <h2>Create integration</h2>
                 <Form schema={schema} uiSchema={uiSchema}>
-                    <button>
+                    <button className="cancelBtn">
                         <span>Cancel</span>
                     </button>
-                    <button>
+                    <button className="createBtn disabledBtn">
                         <span>Create</span>
                     </button>
                 </Form>

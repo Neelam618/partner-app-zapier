@@ -305,6 +305,24 @@ body {
     max-width: 800px;
     padding: 20px 40px 80px;
 }
+#createInt .cancelBtn, #createInt .createBtn {
+    background-color: #f2f2f2;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    padding: 0 70px;
+    margin-top: 2em;
+    cursor: pointer;
+}
+#createInt .createBtn {
+    margin-left: 10px;
+}
+#createInt .disabledBtn {
+    cursor: not-allowed;
+    color: #757575;
+}
+
 @media screen and (max-width: 974px) {
    
 }
